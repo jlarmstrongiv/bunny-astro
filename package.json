@@ -30,6 +30,7 @@
   "exports": {
     ".": "./dist/index.js",
     "./entrypoints/server.js": "./dist/entrypoints/server.js",
+    "./entrypoints/middleware.js": "./dist/entrypoints/middleware.js",
     "./image-service": "./dist/entrypoints/image-service.js",
     "./image-endpoint": "./dist/entrypoints/image-endpoint.js",
     "./package.json": "./package.json"
@@ -50,6 +51,7 @@
     "astro": "^4.2.0"
   },
   "devDependencies": {
+    "@inox-tools/astro-when": "0.2.4",
     "@tsconfig/node20": "20.1.4",
     "@types/fs-extra": "11.0.4",
     "astro": "4.16.7",
