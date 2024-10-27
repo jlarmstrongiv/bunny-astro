@@ -1,7 +1,7 @@
 {
   "name": "bunny-astro",
   "description": "Astro adapter for Edge Scripting for bunny.net 🐰",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "type": "module",
   "types": "./dist/index.d.ts",
   "author": "John L. Armstrong IV",
