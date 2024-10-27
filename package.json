@@ -30,7 +30,6 @@
   "exports": {
     ".": "./dist/index.js",
     "./entrypoints/server.js": "./dist/entrypoints/server.js",
-    "./entrypoints/middleware.js": "./dist/entrypoints/middleware.js",
     "./image-service": "./dist/entrypoints/image-service.js",
     "./image-endpoint": "./dist/entrypoints/image-endpoint.js",
     "./package.json": "./package.json"
@@ -44,7 +43,6 @@
   },
   "dependencies": {
     "@bunny.net/edgescript-sdk": "^0.11.2",
-    "@inox-tools/astro-when": "0.2.4",
     "esbuild": "0.24.0",
     "esbuild-plugin-node-protocol-imports": "^0.0.1"
   },
